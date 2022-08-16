@@ -1,0 +1,7 @@
+@mixin FlexElement($Type) {
+    display: flex;
+    justify-content: $Type;
+    align-items: center;
+}
+
+// Mixin Here

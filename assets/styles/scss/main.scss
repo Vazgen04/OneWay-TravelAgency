@@ -1,0 +1,23 @@
+// Font
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+// Reset
+@import "./base/reset";
+
+// Variable
+@import "./base/variable";
+
+// Mixin
+@import "./base/mixin";
+
+body{
+    position: relative;
+    font-family: $PrimaryFont;
+}
+
+.container{
+    max-width: 1500px;
+    width: 100%;
+    margin: 0% auto;
+    padding: 0px 40px;
+}

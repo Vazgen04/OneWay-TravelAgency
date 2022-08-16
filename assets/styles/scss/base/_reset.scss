@@ -1,0 +1,28 @@
+@import "./variable";
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+h1 , h2 , h3 , h4 , h5 , h6 , p , a {
+    font-size: 1em;
+    font-weight: 400;
+    color: #000;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul , li {
+    list-style: none;
+}
+
+input , button , select {
+    outline: none;
+    background: none;
+    border: none;
+    box-shadow: none;
+}
