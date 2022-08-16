@@ -7,7 +7,7 @@
 
 
     &__inner{
-        @include FlexElement (space-between); 
+        @include FlexElement (space-between);
 
         .logo{
             font-size: 1.875em;

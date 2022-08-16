@@ -4,4 +4,17 @@
     align-items: center;
 }
 
-// Mixin Here
+@mixin Button {
+    padding: 15px 40px;
+    font-weight: 700;
+    background: $PrimaryColor;
+    color: #fff;
+    border-radius: 100px;
+    border: 2px solid $PrimaryColor;
+    display: inline-block;
+    transition: background-color .3s;
+
+    &:hover{
+        background: transparent;
+    }
+}

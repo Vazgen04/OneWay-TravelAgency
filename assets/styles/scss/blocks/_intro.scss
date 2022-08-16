@@ -1,0 +1,75 @@
+.intro{
+    @include FlexElement (center);
+    flex-direction: column;
+    height: 100vh;
+    background: $Gradient;  
+    padding: 400px 0px;
+
+    @media (max-width: 950px) {
+        &{
+            padding: 700px 0px;
+        }
+    }
+
+    @media (max-width: 450px) {
+        &{
+            padding: 600px 0px;
+        }
+    }
+
+
+    &__inner{
+        @include FlexElement (space-between);
+        margin-top: 50px;
+
+        @media (max-width: 950px) {
+            &{
+                flex-direction: column;
+            }
+        }
+
+        .wrapper{
+            .title{
+                font-size: 3.5em;
+                font-weight: 700;
+                line-height: 70px;
+                color: #fff;
+                max-width: 750px;
+
+                @media (max-width: 600px) {
+                    &{
+                        font-size: 2.5em;
+                        line-height: inherit;
+                    }
+                }
+
+                span{
+                    color: $PrimaryColor;
+                }
+            }
+
+            .text{
+                color: #fff;
+                opacity: 40%;
+                max-width: 400px;
+                margin-top: 30px;
+            }
+
+            .button{
+                @include Button;
+                margin-top: 50px;
+            }
+        }
+
+        .banner{
+            max-width: 40%;
+
+            @media (max-width: 950px) {
+                &{
+                    max-width: 100%;
+                    margin-top: 100px;
+                }
+            }
+        }
+    }
+}
