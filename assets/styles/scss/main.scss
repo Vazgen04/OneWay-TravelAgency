@@ -22,6 +22,16 @@ body{
     padding: 0px 40px;
 }
 
+.section_title{
+    font-size: 2em;
+    padding: 10px 0px;
+    font-weight: 700;
+
+    @media (max-width : 340px) {
+        font-size: 1.5em;
+    }
+}
+
 // Header
 @import "./blocks/header";
 
@@ -30,3 +40,6 @@ body{
 
 // Categories
 @import "./blocks/categories";
+
+// Benefits
+@import "./blocks/benefits";

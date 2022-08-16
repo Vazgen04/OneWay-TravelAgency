@@ -1,0 +1,62 @@
+.benefits{
+    padding: $SectionPadding;
+
+    &__inner{
+        @include FlexElement (space-between);
+        margin-top: 50px;
+
+        @media (max-width: 1060px) {
+            &{
+                flex-direction: column;
+            }
+        }
+
+        .card{
+           margin-right: 50px;
+
+            @media (max-width : 1060px) {
+                margin-top: 50px;
+                margin-right: 0%;
+            }
+
+            &:not(:first-child){
+                margin-top: 70px;
+            }
+
+            &__icon{
+                font-size: 2em;
+                font-weight: 700;
+                color: $PrimaryColor;
+            }
+
+            &__title{
+                font-size: 1.5em;
+                font-weight: 700;
+                margin-top: 10px;
+                @media (max-width : 340px) {
+                    font-size: 1em;
+                }
+            }
+
+            &__text{
+                max-width: 400px;
+                margin-top: 15px;
+                opacity: 80%;
+
+                @media (max-width : 340px) {
+                    font-size: 0.8em;
+                }
+            }
+        }
+
+        .banner{
+            max-width: 50%;
+
+            @media (max-width: 1060px) {
+                &{
+                    max-width: 100%;
+                }
+            }
+        }
+    }
+}
