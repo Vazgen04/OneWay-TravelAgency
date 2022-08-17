@@ -8,11 +8,12 @@
     <!-- CSS FILES -->
     <link rel="stylesheet" href="assets/styles/css/main.css">
     <link rel="stylesheet"  href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body class="body">
 
     <!-- HEADER START -->
-    <header class="header">
+    <header class="header" data-aos="fade-down">
         <div class="container">
             <div class="header__inner">
                 <h1 class="logo">
@@ -37,7 +38,7 @@
     <section class="intro">
         <div class="container">
             <div class="intro__inner">
-                <div class="wrapper">
+                <div class="wrapper" data-aos="fade-down">
                     <h1 class="title">
                         WELCOME TO OUR TOUR
                         AGENCY <span>TRAVELER</span>
@@ -50,7 +51,7 @@
                     </p>
                     <a href="#" class="button">Explore Armenia</a>
                 </div>
-                <img class="banner" src="assets/img/section/intro/banner.png" alt="Earth">
+                <img class="banner" data-aos="fade-down" src="assets/img/section/intro/banner.png" alt="Earth">
             </div>
         </div>
     </section>
@@ -59,7 +60,7 @@
     <!-- CATEGORIES START -->
     <section class="categories">
         <div class="container">
-            <div class="categories__inner">
+            <div class="categories__inner" data-aos="fade-down">
                 <div class="card">
                     <img class="card__img" src="assets/img/section/categories/01.jpg" alt="01">
                     <div class="card__wrapper">
@@ -109,8 +110,8 @@
         <div class="container">
             <h1 class="section_title">WHY WITH US ?</h1>
             <div class="benefits__inner">
-                <img class="banner" src="assets/img/section/benefits/banner.jpg" alt="Banner">
-                <div class="wrapper">
+                <img class="banner"  data-aos="fade-down" src="assets/img/section/benefits/banner.jpg" alt="Banner">
+                <div class="wrapper" data-aos="fade-down">
                     <div class="card">
                         <h2 class="card__icon">01</h2>
                         <h3 class="card__title">We provide top quality tours</h3>
@@ -149,7 +150,7 @@
     <section class="tours">
         <div class="container">
             <h1 class="section_title">POPULAR TOURS</h1>
-            <div class="tours__inner">
+            <div class="tours__inner" data-aos="fade-down">
                 <div class="swiper mySwiper">
                     <div class="swiper-wrapper">
                       <div class="swiper-slide">
@@ -213,7 +214,7 @@
         <div class="container">
             <h1 class="section_title">ABOUT ARMENIA</h1>
             <div class="about__inner">
-                <div class="wrapper">
+                <div class="wrapper" data-aos="fade-down">
                     <p class="text">
                         Armenia – acknowledged as one of the cradles of civilization – is a beautiful country with a long 
                         and cultured history. It is an intriguing tourist destination and is recognised as one of the most
@@ -226,7 +227,7 @@
                         </span>
                     </p>
                 </div>
-                <img src="assets/img/section/about/banner.jpg" alt="banner" class="banner">
+                <img data-aos="fade-down" src="assets/img/section/about/banner.jpg" alt="banner" class="banner">
             </div>
         </div>
     </section>
@@ -236,7 +237,7 @@
     <section class="review">
         <div class="container">
             <h1 class="section_title">REVIEWS</h1>
-            <div class="review__inner">
+            <div class="review__inner" data-aos="fade-down">
                 <div class="swiper mySwiper">
                     <div class="swiper-wrapper">
                       <div class="swiper-slide">
@@ -389,6 +390,8 @@
     <!-- MOBILE MENU END-->
 
     <!-- JAVASCRIPT FILES-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="assets/js/aos.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
     <script src="./assets/js/slider.js"></script>
     <script src="assets/js/navigation.js"></script>
