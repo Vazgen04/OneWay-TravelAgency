@@ -15,6 +15,10 @@ body{
     font-family: $PrimaryFont;
 }
 
+.overflow{
+    overflow: hidden;
+}
+
 .container{
     max-width: 1500px;
     width: 100%;

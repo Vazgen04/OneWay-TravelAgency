@@ -33,6 +33,10 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+.overflow {
+  overflow: hidden;
+}
+
 .container {
   max-width: 1500px;
   width: 100%;
