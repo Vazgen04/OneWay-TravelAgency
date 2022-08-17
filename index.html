@@ -27,7 +27,7 @@
                     <a href="#" class="link">Contact</a>
                 </nav>
 
-                <img class="mobile_menu" src="assets/img/svg/menu.svg" alt="Menu">
+                <img class="mobile_menu" onclick="Menu()" src="assets/img/svg/menu.svg" alt="Menu">
             </div>
         </div>
     </header>
@@ -368,8 +368,29 @@
     </footer>
     <!-- FOOTER END-->
 
+    <!-- MOBILE MENU START -->
+    <section class="mobile">
+        <div class="container">
+            <div class="mobile__top">
+                <h1 class="title">MENU</h1>
+                <img onclick="Menu()" src="assets/img/svg/close.svg" alt="Close">
+            </div>
+            <div class="mobile__inner">
+                <nav class="nav">
+                    <a href="#" class="link link_active">Home</a>
+                    <a href="#" class="link">About Armenia</a>
+                    <a href="#" class="link">About Us</a>
+                    <a href="#" class="link">Blog</a>
+                    <a href="#" class="link">Contact</a>
+                </nav>
+            </div>
+        </div>
+    </section>
+    <!-- MOBILE MENU END-->
+
     <!-- JAVASCRIPT FILES-->
     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
     <script src="./assets/js/slider.js"></script>
+    <script src="assets/js/navigation.js"></script>
 </body>
 </html>
