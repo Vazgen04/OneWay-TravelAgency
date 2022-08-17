@@ -359,3 +359,57 @@ body {
     max-width: 100%;
   }
 }
+
+.tours {
+  padding: 100px 0px;
+}
+.tours__inner {
+  margin-top: 50px;
+}
+.tours__inner .swiper {
+  width: 100%;
+  height: 100%;
+}
+.tours__inner .swiper .swiper-slide {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.tours__inner .swiper .swiper-slide .card {
+  text-align: center;
+}
+.tours__inner .swiper .swiper-slide .card__img {
+  max-width: 100%;
+}
+.tours__inner .swiper .swiper-slide .card__title {
+  font-weight: 700;
+  margin-top: 10px;
+}
+.tours__inner .swiper .swiper-slide .card__button {
+  padding: 15px 40px;
+  font-weight: 700;
+  background: #FF9314;
+  color: #fff;
+  border-radius: 100px;
+  border: 2px solid #FF9314;
+  display: inline-block;
+  -webkit-transition: background-color 0.3s;
+  transition: background-color 0.3s;
+  width: 100%;
+  padding: 10px;
+  cursor: pointer;
+  margin-top: 10px;
+  font-size: 1.1em;
+}
+.tours__inner .swiper .swiper-slide .card__button:hover {
+  background: transparent;
+}
+.tours__inner .swiper .swiper-slide .card__button:hover {
+  color: #FF9314;
+}
