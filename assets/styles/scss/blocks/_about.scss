@@ -1,0 +1,30 @@
+.about{
+    padding: $SectionPadding;
+
+    &__inner{
+        @include FlexElement (space-between);
+        margin-top: 50px;
+
+        @media (max-width: 1060px) {
+            &{
+                flex-direction: column;
+            }
+        }
+
+        .wrapper{
+            margin-right: 30px;
+            .text{
+                max-width: 790px;
+            }
+        }
+
+        .banner{
+            @media (max-width: 1060px) {
+                &{
+                    margin-top: 50px;
+                    max-width: 100%;
+                }
+            }
+        }
+    }
+}

@@ -413,3 +413,39 @@ body {
 .tours__inner .swiper .swiper-slide .card__button:hover {
   color: #FF9314;
 }
+
+.about {
+  padding: 100px 0px;
+}
+.about__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 50px;
+}
+@media (max-width: 1060px) {
+  .about__inner {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+.about__inner .wrapper {
+  margin-right: 30px;
+}
+.about__inner .wrapper .text {
+  max-width: 790px;
+}
+@media (max-width: 1060px) {
+  .about__inner .banner {
+    margin-top: 50px;
+    max-width: 100%;
+  }
+}
