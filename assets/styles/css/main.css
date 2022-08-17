@@ -440,6 +440,11 @@ body {
 .about__inner .wrapper {
   margin-right: 30px;
 }
+@media (max-width: 1060px) {
+  .about__inner .wrapper {
+    margin-right: 0%;
+  }
+}
 .about__inner .wrapper .text {
   max-width: 790px;
 }
