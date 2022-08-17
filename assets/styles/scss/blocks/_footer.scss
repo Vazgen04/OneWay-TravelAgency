@@ -1,0 +1,47 @@
+.footer{
+    padding: 20px 0px;
+    background: $Gradient;
+
+    &__inner{
+        @include FlexElement (space-between);
+        flex-wrap: wrap;
+        column-gap: 50px;
+        row-gap: 50px;
+        margin: 50px 0px;
+
+        .list{
+            color: #fff;
+
+            &__item:not(:first-child){
+                margin-top: 10px;
+            }
+
+            &__item{
+                .logo{
+                    @include Logo;
+                }
+
+                .socmedia{
+                    @include FlexElement (space-between);
+                }
+
+                a{
+                    transition: opacity .3s;
+                    color: #fff;
+
+                    &:hover{
+                        opacity: 50%;
+                    }
+                }
+            }
+        }
+    }
+
+
+    .privacy{
+        text-align: center;
+        color: #fff;
+        opacity: 50%;
+        font-size: 0.9em;
+    }
+}

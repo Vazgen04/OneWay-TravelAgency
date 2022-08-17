@@ -11,13 +11,7 @@
         @include FlexElement (space-between);
 
         .logo{
-            font-size: 1.875em;
-            font-weight: 700;
-            color: #fff;
-
-            span{
-                color: $PrimaryColor;
-            }
+            @include Logo;
         }
 
         .nav{
